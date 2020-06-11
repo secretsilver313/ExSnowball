@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/secretsilver313/ExSnowball
+build-by-default: true
+branches:
+- master
+projects:
+  ExSnowball:
+    path: ""
+...
