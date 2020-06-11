@@ -1,6 +1,6 @@
 <?php
 
-namespace snowball;
+namespace secretsilver\snowball;
 
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\event\Listeners;
