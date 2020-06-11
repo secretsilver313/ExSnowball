@@ -2,4 +2,5 @@ name: ExSnowball
 version: 1.0.0
 api: 3.0.0
 author: secretsilver
+main: snowball/Main
 description: Explosive Snowball Plugin (private)
