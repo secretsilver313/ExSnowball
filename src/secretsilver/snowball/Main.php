@@ -4,7 +4,8 @@ namespace snowball;
 
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\event\Listeners;
-
+use pocketmine\level\Explosion
+use pocketmine\event\entity\snowballEntityHitEvent;
 
 class snowball extends pluginBase implements Listener {
 
