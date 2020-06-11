@@ -4,9 +4,10 @@ namespace snowball;
 
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\event\Listeners;
-use pocketmine\level\Explosion
+use pocketmine\level\Explosion;
 use pocketmine\event\entity\snowballEntityHitEvent;
-
+use pocketmine\plugin\PluginBase;
+  
 class snowball extends pluginBase implements Listener {
 
   public function snowballEntityHit(ProjectileHitEntityEvent $e){
