@@ -9,10 +9,11 @@ use pocketmine\plugin\PluginBase;
   
 class Main extends PluginBase implements Listener {
 
-  public function snowballEntityHit(ProjectileHitEntityEvent $e){
-    if($e->getEntityHit() instanceof Living){
-        $explosion = new Explosion($e->getEntityHit(), 5, null);
-        $explosion->explodeB();
-    }
+public function snowballEntityHit(ProjectileHitEntityEvent $e){
+  if($e->getEntity() instanceof Living){
+    var_dump("Test");
+    $explosion = new Explosion($e->getEntity(), 5, null);
+    $explosion->explodeB();
   }
+}
 }
