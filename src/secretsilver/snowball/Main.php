@@ -11,9 +11,9 @@ class Main extends PluginBase implements Listener {
 
 public function snowballEntityHit(ProjectileHitEntityEvent $e){
     var_dump("event fired");
-  if($e->getEntity() instanceof Living){
+  if($e->getEntityHit() instanceof Living){
     var_dump("Test");
-    $explosion = new Explosion($e->getEntity(), 5, null);
+    $explosion = new Explosion($e->getEntityHit(), 5, null);
     $explosion->explodeB();
   }
 }
