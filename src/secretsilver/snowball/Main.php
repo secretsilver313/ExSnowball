@@ -8,6 +8,10 @@ use pocketmine\entity\Living;
 use pocketmine\plugin\PluginBase;
   
 class Main extends PluginBase implements Listener {
+  
+  public function onEnable() {
+    $this->getServer()->getPluginManager()->registerEvents($this, $this);
+  }
 
 public function snowballEntityHit(ProjectileHitEntityEvent $e){
     var_dump("event fired");
